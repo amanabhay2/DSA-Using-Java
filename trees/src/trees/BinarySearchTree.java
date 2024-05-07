@@ -46,7 +46,7 @@ public class BinarySearchTree {
 	
 	public void delete(int data)
 	{
-		deleteHelper(data,root);
+		root=deleteHelper(data,root);
 	}
 	
 	private boolean presentHelper(int data,BinaryTreeNode<Integer> root)
